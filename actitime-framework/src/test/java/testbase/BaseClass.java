@@ -16,10 +16,10 @@ public class BaseClass {
 	}
 	@BeforeMethod
 	public void login() {
-		System.out.println("Login");
+		System.out.println("Login to application");
 	}
 	@AfterMethod
 	public void logout() {
-		System.out.println("Logout");
+		System.out.println("Logout from application");
 	}
 }
