@@ -7,19 +7,19 @@ import org.testng.annotations.AfterClass;
 
 public class BaseClass {
   @BeforeMethod
-  public void beforeMethod() {
+  public void login() {
 	  System.out.println("Login");
   }
   @AfterMethod
-  public void afterMethod() {
+  public void logout() {
 	  System.out.println("Logout");
   }
   @BeforeClass
-  public void beforeClass() {
+  public void launchApp() {
 	  System.out.println("Launch browser");
   }
   @AfterClass
-  public void afterClass() {
+  public void quit() {
 	  System.out.println("Quit");
   }
 
