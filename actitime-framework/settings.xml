@@ -1,0 +1,7 @@
+<suite name="settings">
+  <test verbose="2" name="settings">
+    <classes>
+      <class name="settings.CreateBilling"/>
+    </classes>
+  </test>
+</suite>
